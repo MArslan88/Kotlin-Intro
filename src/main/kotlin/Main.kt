@@ -34,5 +34,19 @@ fun main(args: Array<String>) {
     println("$great")
 
 
+    // WHEN statement (it is similar to switch statement) ---------------------------------
+    var tap = 5
+    var order = when(tap){
+        1 -> "Pizze"
+        2 -> "Pasta"
+        3 -> "Fried rice"
+        4 -> "Wrap"
+        5 -> "Sandwich"
+        6 -> "Burger"
+        else -> "Invalid option"
+    }
+    println(order)
+
+
 
 }
