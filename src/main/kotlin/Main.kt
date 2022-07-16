@@ -47,6 +47,14 @@ fun main(args: Array<String>) {
     }
     println(order)
 
+    var names = arrayOf("Arslan", "Danish", "Noman", "Tanzeel")
+
+    println(names[1]) // for single data extraction
+
+    // extract data with loop
+    for(n in names){
+        println(n)
+    }
 
 
 }
