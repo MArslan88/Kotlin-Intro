@@ -22,4 +22,17 @@ fun main(args: Array<String>) {
     println("Both $name1 and $name2 are best friends");
     println("${name1.toUpperCase()} is older than $name2");
 
+
+    // IF-ELSE statements ----------------------------
+    val a=205
+    val b=195
+
+    val great = if(a>b)
+        "$a is greater"
+    else
+        "$b is greater"
+    println("$great")
+
+
+
 }
