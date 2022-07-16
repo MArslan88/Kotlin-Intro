@@ -4,13 +4,22 @@ fun main(args: Array<String>) {
     var (mutable: value can be reassign)
     val (immutable: value can not be reassign)
      */
-    var name = "Arslan"     // mutable
-    val name2 = "Danish"    // immutable
-    name = "Tanzeel"
+//    var name = "Arslan"     // mutable
+//    val name2 = "Danish"    // immutable
+//    name = "Tanzeel"
+//
+//    println(name)
+//    println(name2)
 
-    println(name)
-    println(name2)
 
+    /*
+    String templates
+     */
 
+    var name1 = "Ronny"
+    var name2 = "Mickey"
+
+    println("Both $name1 and $name2 are best friends");
+    println("${name1.toUpperCase()} is older than $name2");
 
 }
