@@ -49,7 +49,10 @@ fun main(args: Array<String>) {
 
     var names = arrayOf("Arslan", "Danish", "Noman", "Tanzeel")
 
+    names.set(2,"Asif") // it will set the "Asif" at index '2'
+
     println(names[1]) // for single data extraction
+    println(names.get(1)) // same as above
 
     // extract data with loop
     for(n in names){
