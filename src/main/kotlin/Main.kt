@@ -59,5 +59,12 @@ fun main(args: Array<String>) {
         println(n)
     }
 
+    var arr1 = arrayOf(2,4,6, "Eight", "ten")
+    for(element in arr1.indices){ // here indices use for index
+        println("arr1[$element] = " + arr1[element])
+    }
+
+
+
 
 }
