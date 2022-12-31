@@ -64,6 +64,11 @@ fun main(args: Array<String>) {
         println("arr1[$element] = " + arr1[element])
     }
 
+    var arr2 = arrayOf(3,4,5,"Six", "Seven")
+    for(n in arr2){
+        println(n)
+    }
+
 
 
 
